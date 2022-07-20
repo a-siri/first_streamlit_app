@@ -12,4 +12,6 @@ Develop Sql queries SnowSQL.
 Define Virtual warehouse sizing for snowflake for different type of workloads.
 Good knowledge of building snowpipe.
 Good knowledge of snowflake clone and time travel.
+create data pipelines & workflows using snowflake patner connect(rivery)
+flexible to use both classic cansole and snow sight of snowflake user interfaces.
 
