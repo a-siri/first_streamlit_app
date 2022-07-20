@@ -32,6 +32,7 @@ st.markdown(hide_table_row_index, unsafe_allow_html=True)
 # Display a static table
 st.table(df)
 
+
 # CSS to inject contained in a string
 hide_dataframe_row_index = """
             <style>
