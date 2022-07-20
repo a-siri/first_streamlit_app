@@ -1,6 +1,6 @@
 import streamlit as st
 st.title('my parents healthy dinner')
-st.title("my name is sirisha")
-
-st.text("my hub kalyan")
-st.text("my kid ratnika")
+streamlit.header('Breakfast Menu')
+streamlit.text('Omega 3 & Blueberry Oatmeal')
+streamlit.text('Kale, Spinach & Rocket Smoothie')
+streamlit.text('Hard-Boiled Free-Range Egg')
