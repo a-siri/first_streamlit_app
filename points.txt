@@ -1,0 +1,15 @@
+Good knowledge of  SQL,snowflake, snowflake database development, snowflake data warehousing, 
+API And Web service Basics,Command Line Interface, Database Development,Data Integration,
+kafka,python,rivery,streamlit,Snow Sql.
+Good knowledge of Creating Database Objects, Virtual Warehouse creation and configuration
+In-depth knowledge of Snowflake Database,Schema and Table structures.
+In-depth understanding of Data Warehouse,Data Modeling and ETL concepts.
+ creating internal and external stage,
+loading and querying CSV and JSON data.
+Ability to use snowflake's three data sharing technologies
+ (Direct Sharing,the Snowflake Data Marketplace, and Snowflake's Private Data Exchanges)
+Develop Sql queries SnowSQL.
+Define Virtual warehouse sizing for snowflake for different type of workloads.
+Good knowledge of building snowpipe.
+Good knowledge of snowflake clone and time travel.
+
