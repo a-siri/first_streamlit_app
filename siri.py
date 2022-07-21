@@ -9,6 +9,13 @@ df = pd.DataFrame(
     np.random.randn(2, 2),
     columns=((1,"my hub","kalyan"),(2,"my kid","ratnika")))
 
+
+df = pandas.DataFrame([[1, 2], [4, 5], [7, 8]],
+     index=['cobra', 'viper', 'sidewinder'],
+     columns=['max_speed', 'shield'])
+st.dataframe(df)
+
+
 st.table(df)
 import streamlit as st
 import pandas as pd
