@@ -18,5 +18,6 @@ st.dataframe(fruits_to_show)
 df = pandas.DataFrame([[1, 2], [4, 5], [7, 8]],
      index=['cobra', 'viper', 'sidewinder'],
      columns=['max_speed', 'shield'])
-df.loc['viper']
+
 st.dataframe(df)
+df.loc['viper']
