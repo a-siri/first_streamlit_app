@@ -22,3 +22,4 @@ df = pandas.DataFrame([[1, 2], [4, 5], [7, 8]],
 st.dataframe(df)
 df.loc['viper']
 df.loc[['viper', 'sidewinder']]
+df.loc['cobra', 'shield']
