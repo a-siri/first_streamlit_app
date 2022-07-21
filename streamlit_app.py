@@ -15,3 +15,7 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 # Display the table on the page.
 st.dataframe(fruits_to_show)
 
+df = pandas.DataFrame([[1, 2], [4, 5], [7, 8]],
+     index=['cobra', 'viper', 'sidewinder'],
+     columns=['max_speed', 'shield'])
+st.dataframe(df)
