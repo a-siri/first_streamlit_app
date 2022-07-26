@@ -24,3 +24,15 @@ df.loc['viper']
 df.loc[['viper', 'sidewinder']]
 df.loc['cobra', 'shield']
 5+4
+4+5
+
+
+
+
+
+
+
+
+
+
+
