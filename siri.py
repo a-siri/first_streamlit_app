@@ -33,6 +33,17 @@ hide_table_row_index = """
             </style>
             """
 
+df = pandas.DataFrame([[1, 2], [4, 5], [7, 8]],
+     index=['cobra', 'viper', 'sidewinder'],
+     columns=['max_speed', 'shield'])
+
+st.dataframe(df)
+df.loc['viper']
+df.loc[['viper', 'sidewinder']]
+df.loc['cobra', 'shield']
+5+4
+4+5
+
 # Inject CSS with Markdown
 st.markdown(hide_table_row_index, unsafe_allow_html=True)
 
