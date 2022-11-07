@@ -41,12 +41,12 @@ import pandas
 #add_my_fruit = st.text_input('What fruit would you like to add?','jackfruit')
 #st.write('Thanks for adding', add_my_fruit)
 
-my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
-my_cur = my_cnx.cursor()
-my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(),CURRENT_REGION()")
-my_data_row = my_cur.fetchone()
-st.text("Hello from Snowflake:")
-st.text(my_data_row)
+#my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
+#my_cur = my_cnx.cursor()
+#my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(),CURRENT_REGION()")
+#my_data_row = my_cur.fetchone()
+#st.text("Hello from Snowflake:")
+#st.text(my_data_row)
 
 st.title('Zena\'s Amazing Athleisure Catalog')
 # connect to snowflake
