@@ -28,8 +28,8 @@ st.dataframe(fruityvice_normalized)
 
 import snowflake.connector
 
-#my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
-#my_cur = my_cnx.cursor()
+my_cnx = snowflake.connector.connect(**st.secrets["snowflake"])
+my_cur = my_cnx.cursor()
 #my_cur.execute("SELECT * from fruit_load_list")
 #my_data_rows = my_cur.fetchall()
 #st.header("The fruit load list contains:")
